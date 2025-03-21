@@ -17,18 +17,22 @@ int main(){
  printf("digite o nome do estado\n");
  scanf("%s", &estado);
 
- 
+ printf("digite o codigo \n");
+ scanf("%s", codigo);
+
+ printf("digite a população \n");
+ scanf("%d",&populacao);
+
+ printf("digite a area em Km²");
+ scanf("%f", &area);
+
+ printf("digite o BIP \n");
+ scanf("%f", BIP);
+
+ printf("quantos pontos turisticos? \n");
+ scanf("%d", &num_pontos_turisticos);
+
+  return 0;
 
 
-
-
-
-
-
-
-
-
-
-
-
- }
+}
