@@ -14,23 +14,31 @@ int main(){
  printf("novo commit \n");
  printf("Carta 1 \n");
 
- printf("digite o nome do estado\n");
+ printf("digite o nome do estado:\n");
  scanf("%s", &estado);
 
- printf("digite o codigo \n");
+ printf("digite o codigo:\n");
  scanf("%s", codigo);
 
- printf("digite a população \n");
+ printf("digite a população:\n");
  scanf("%d",&populacao);
 
- printf("digite a area em Km²");
+ printf("digite a area em Km²:\n");
  scanf("%f", &area);
 
- printf("digite o BIP \n");
+ printf("digite o BIP:\n");
  scanf("%f", BIP);
 
- printf("quantos pontos turisticos? \n");
+ printf("quantos pontos turisticos?\n");
  scanf("%d", &num_pontos_turisticos);
+
+ printf("Cidade: %s\n", nome_da_cidade);
+ printf("Estado: %c\n", estado);
+ printf("Código: %s\n", codigo);
+ printf("População: %d\n", populacao);
+ printf("Área: %.2f km²\n", area);
+ printf("BIP (Produto Interno Bruto): %.2f bilhões\n", BIP);
+ printf("Número de Pontos Turísticos: %d\n", num_pontos_turisticos);
 
   return 0;
 
