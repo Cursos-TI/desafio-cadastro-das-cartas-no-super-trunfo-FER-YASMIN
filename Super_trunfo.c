@@ -59,6 +59,8 @@ int main(){
  float PIB = 300.50;
  int num_pontos_turisticos = 30;
 
+ printf("Carta 2 \n");
+
  printf("digite o nome do estado: \n");
  scanf("%s", &estado);
 
@@ -89,6 +91,5 @@ int main(){
  printf("Número de pontos turísticos: %d\n", num_pontos_turisticos);
 
   return 0;
-
 
  }
